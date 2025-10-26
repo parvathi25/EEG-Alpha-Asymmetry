@@ -29,7 +29,7 @@ The analysis focuses on **frontal alpha asymmetry**, computed between the left (
   Alpha asymmetry was calculated as:
 
   \[
-  A = \log_{10}(P_{F4}) - \log_{10}(P_{F3})
+  A = \log(P_{F4}) - \log(P_{F3})
   \]
 
 - **Interpretation:**  
