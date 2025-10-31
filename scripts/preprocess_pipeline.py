@@ -54,8 +54,7 @@ def preprocess_eeg(input_file, output_file):
     # Re-reference to average
     raw.set_eeg_reference('average', projection=False)
 
-    # Example: epoching around events (requires event info)
-    # For demo, skipping event-based epoching. Add this when event markers are available.
+    # Add this when event markers are available.
     # epochs = mne.Epochs(raw, events, event_id, tmin=-0.2, tmax=0.8, baseline=(-0.2, 0))
 
     # Save preprocessed data
